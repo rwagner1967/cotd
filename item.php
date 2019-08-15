@@ -67,7 +67,7 @@ if ( isset( $favorite ) ) {
 }
 
 $help = "<p>You are looking at a list of ".$_SESSION['SELECTOR'];
-if ( $_SESSION['SELECTOR'] == "cats" ) {
+if ( $_SESSION['SELECTOR'] == "cities" ) {
   $help = $help." from amongst my work colleagues.";
 } else {
   $help = $help. ".";
